@@ -124,6 +124,7 @@ foreach ($donnes as $Donnes) {
 
 
     <!-- Modal -->
+
     <form action="/login/controllers/loginfonc.php" method="POST">
         <div class="modal fade" id="modal_nouveau_mdp" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -139,17 +140,22 @@ foreach ($donnes as $Donnes) {
                                 <br>
                                 <input type="password" name="ancien_mdp" required>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col mb-2">
                                 <label for="">Nouveau mot de passe:</label>
                                 <br>
                                 <input type="password" name="nouveau_mdp" required>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col mb-2">
-                                <label for="">Confirmé nouveau mot de passe:</label>
+                                <label for="">Confirmé nouveau mot de passe :</label>
+                                <br>
                                 <input type="password" name="confirm_nouveau_mdp" required>
                             </div>
                         </div>
-
+                    
 
                     </div>
                     <div class="modal-footer">

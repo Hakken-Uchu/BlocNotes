@@ -196,17 +196,22 @@ foreach ($users as $user) {
                                 <br>
                                 <input type="password" name="ancien_mdp" required>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col mb-2">
                                 <label for="">Nouveau mot de passe:</label>
                                 <br>
                                 <input type="password" name="nouveau_mdp" required>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col mb-2">
-                                <label for="">Confirmé nouveau mot de passe:</label>
+                                <label for="">Confirmé nouveau mot de passe :</label>
+                                <br>
                                 <input type="password" name="confirm_nouveau_mdp" required>
                             </div>
                         </div>
-
+                    
 
                     </div>
                     <div class="modal-footer">
